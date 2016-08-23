@@ -1,24 +1,25 @@
-# README
+# Unofficial Yahoo Finance JSON API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+===================================
+This is a very simple Yahoo! Finance API that I wrote that simply calls the
+pre-existing Yahoo! Finance historical prices api and converts it to a JSON
+object. I built it as a starting point to making a modular series of APIs that
+will (hopefully, eventually) be able to communicate with eachother and compare
+stock prices to twitter activity in order to look for trends or stock trading
+clues.
 
-Things you may want to cover:
+### How does it work?
 
-* Ruby version
+Simply punch in the url (http://yahoo-stock-api.herokuapp.com/) and append the
+desired stock's ticker at the end.
 
-* System dependencies
+To get Google's historical stock prices, for example, use:
 
-* Configuration
+> http://yahoo-stock-api.herokuapp.com/goog
 
-* Database creation
+The API will return open, close, high, low, and adjusted close stock prices for
+everyday for which stock data is available.
 
-* Database initialization
+--------------------------------------------------------------------------------
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Check out my portfolio site: http://mikegregory.co
