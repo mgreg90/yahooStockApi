@@ -1,0 +1,2 @@
+module YahooHistoricalPricesApiHelper
+end
