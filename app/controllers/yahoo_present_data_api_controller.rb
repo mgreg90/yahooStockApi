@@ -1,0 +1,2 @@
+class YahooPresentDataApiController < ApplicationController
+end
