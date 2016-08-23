@@ -1,4 +1,4 @@
-# Unofficial Yahoo Finance JSON API
+Unofficial Yahoo Finance JSON API
 
 ===================================
 This is a very simple Yahoo! Finance API that I wrote that simply calls the
