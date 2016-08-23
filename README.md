@@ -1,6 +1,5 @@
-Unofficial Yahoo Finance JSON API
+# Unofficial Yahoo Finance JSON API
 
-===================================
 This is a very simple Yahoo! Finance API that I wrote that simply calls the
 pre-existing Yahoo! Finance historical prices api and converts it to a JSON
 object. I built it as a starting point to making a modular series of APIs that
