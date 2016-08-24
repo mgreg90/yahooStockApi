@@ -9,6 +9,8 @@ clues.
 
 ### How does it work?
 
+#### Historical Prices
+
 Simply punch in the url (http://yahoo-stock-api.herokuapp.com/) and append
 'hist/' and the desired stock's ticker at the end.
 
@@ -18,6 +20,17 @@ To get Google's historical stock prices, for example, use:
 
 The API will return open, close, high, low, and adjusted close stock prices for
 everyday for which stock data is available.
+
+#### Present Data
+
+Punch in the url (http://yahoo-stock-api.herokuapp.com/) and append only the
+desired stock's ticker at the end.
+
+To get Google's present day data, for example, use:
+
+> http://yahoo-stock-api.herokuapp.com/goog
+
+The API will return 86 different categories of data.
 
 --------------------------------------------------------------------------------
 
