@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   get 'hist/:ticker' => 'yahoo_historical_prices_api#call'
   get '/:ticker' => 'yahoo_present_data_api#call'
+  root 'application#root'
 
 end
